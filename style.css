@@ -73,7 +73,7 @@ body {
 /* About Page */
 
 .about-img {
-    height: 100vh;
+    height: 90vh;
     background-image: url(images/fire.jpg);
     background-position: center;
     background-size: cover;
@@ -118,6 +118,15 @@ body {
 
 /* Samples Page */
 
+.samples-img {
+    height: 90vh;
+    background-image: url(images/sky.jpg);
+    /* https://unsplash.com/photos/v9bnfMCyKbg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .samples {
     width: 80%;
     margin: auto;
@@ -126,6 +135,34 @@ body {
 
 .col-md-4 {
     text-align: center;
+}
+
+
+/* Contact Page */
+
+.contact-img {
+    height: 90vh;
+    background-image: url(images/water.jpg);
+    /* https://unsplash.com/photos/V0eECO6ITqA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.contact-info {
+    height: 50vh;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.btn {
+    margin: 5px 0 10px;
+}
+
+.contact-img i {
+    margin: 0 10px;
 }
 
 @media (max-width:700px) {
@@ -164,5 +201,11 @@ body {
     }
     .about-img {
         height: 75vh;
+    }
+    .samples-img {
+        height: 75vh;
+    }
+    .contact-img {
+        padding-top: 45%;
     }
 }
